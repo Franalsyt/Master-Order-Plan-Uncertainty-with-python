@@ -80,3 +80,12 @@ To answer this, we wrote a sensitivity analysis orchestrator that:
 ### Key Takeaways
 * **High ROI Intervention:** We can see that working with the supplier of **Component 3 (C3)** to improve their precision is highly lucrative. We could offer a $20,000 bonus over a 10-week plan, which would net us **$47,600 a year in savings!**
 * **The Variability Paradox:** However, other parts of the results are surprising! Why does improving lead time precision sometimes *increase* our costs? Because in this simulation, as we reduced the variability, we also reduced the chances of having *shorter* lead times (early arrivals that naturally buffered the system).
+
+## 💻 Explore the Code & Data
+
+Want to see exactly how the stochastic linear programming model was built, or run the sensitivity analysis yourself? All the code and datasets used for this project are open-source and available in this repository.
+
+* 📂 **Data:** Check out the [`data/` folder](data/) for the raw CSV files containing the BOM, holding costs, lead time probability distributions, and demand forecasts.
+* 🛠️ **Code:** The optimization model, data processing, and sensitivity analysis orchestrator can be found in the [`notebooks/` folder](notebooks/) (or specify your `.py` files here). 
+
+Feel free to clone the repo, play around with the supplier parameters, and see how the holding costs change!
