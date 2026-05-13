@@ -85,7 +85,7 @@ To answer this, we wrote a sensitivity analysis orchestrator that:
 
 Want to see exactly how the stochastic linear programming model was built, or run the sensitivity analysis yourself? All the code and datasets used for this project are open-source and available in this repository.
 
-* 📂 **Data:** Check out the [`data/` folder](data/) for the raw CSV files containing the BOM, holding costs, lead time probability distributions, and demand forecasts.
+* 📂 **Data:** Check out the [`main/`](DATA_ATO.xlsx/) for the raw CSV files containing the BOM, holding costs, lead time probability distributions, and demand forecasts.
 * 🛠️ **Code:** The optimization model, data processing, and sensitivity analysis orchestrator can be found in the [`notebooks/` folder](notebooks/) (or specify your `.py` files here). 
 
 Feel free to clone the repo, play around with the supplier parameters, and see how the holding costs change!
