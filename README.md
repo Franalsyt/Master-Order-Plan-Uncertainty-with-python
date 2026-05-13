@@ -1,5 +1,6 @@
-# Master-Order-Plan-Uncertainty-with-python
+### Master-Order-Plan-Uncertainty-with-python
 Find the for an Assemble To order strategy the optimal ordering plan of your supplies to meet your customers demand and reduce holding costs
+
 
 
 Imagine you manage a complex Assemble-To-Order (ATO) manufacturing line. You
@@ -15,27 +16,9 @@ entirety of a company's holding cost in a real-world ATO environment is
 effectively a massive "Risk Buffer."
 
 In this project, we used python and stochastic linear programming in order to determine an ordering plan guaranteeing service without bumping up stocks.
-Furthermore we will undercover which are the best parameters we could change to reduce costs even more.
-
-Should I reduce X or Y stocks to shrink holding costs ?
-Which supplier should I incentivize to reduce their delivery uncertainty ?
+Furthermore we will undercover how we could reduce costs even more by changing one parameter.
 
 
-The problem : 
-
-You are a X who wants X 
-
-While considering this 
-
-
-
-
-
-
-
-Here is the Data & Assumptions section of your article, written in your preferred professional format. This structure is designed to make complex supply chain data easy for a reader to digest quickly.
-
-DATA & OPERATIONAL ASSUMPTIONS
 To build a realistic model of a global Assemble-to-Order network, the system is fed with four primary data categories.
 1. Market Demand Requirements
 
